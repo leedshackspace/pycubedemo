@@ -50,4 +50,4 @@ class Pattern(object):
         self.z_offset += 4.0 / FRAMERATE
         if self.z_offset > 0.0:
             self.z_offset -= 4.0
-            raise StopIteration
+        raise StopIteration

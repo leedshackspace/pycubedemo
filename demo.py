@@ -28,12 +28,15 @@ pattern_details = [
     ('fireworks','',TEMPO),
     ('swipe','',TEMPO),
     ('wave','',TEMPO),
-    ('worm','',TEMPO * 2),
-    ('boxflip', '', TEMPO),
+    ('worm','',TEMPO),
+    ('sinewave', '', 2*TEMPO),
     ('fade','',TEMPO + 4.0),
-    ('pause','', 3.0),
+    ('pause','', 6.0),
+    ('rainbowfill', '', 60.0),
+    # ('pause','', 6.0),
+    # ('life', '', 30.0),
+    ('pause','', 6.0),
     ('weathermatt','', 160.0),
-
 ]
 
 def load_patterns(cube, details):

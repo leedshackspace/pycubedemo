@@ -23,6 +23,6 @@ class Pattern(object):
         if self.level <= 0.0:
             self.delta = -self.delta
             self.level = 0.0
-            self.color = cubehelper.random_color()
+            self.color = cubehelper.random_color(self.color)
             raise StopIteration
 

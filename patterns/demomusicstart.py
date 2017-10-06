@@ -5,7 +5,7 @@ import math
 import pygame
 
 DT = 1.0/10
-STARTDELAY = 2.0
+STARTDELAY = 2.05
 
 def loadsounds(dirname, namelist):
 	sounds = []
